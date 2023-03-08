@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+
+<body>
+    <div class="pdk">
+        <h3>Phiếu Đăng Kí</h3>
+    </div>
+    <hr>
+    <div class="container">
+
+        <div class="P1">
+            <div class="img">
+                <img src="anh/lzinksgh.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Kingshoes hân hạnh được mang đến cho quý khách những sản phẩm tốt nhất! </h4>
+            </div>
+        </div>
+
+        <div class="P2">
+            <form action="">
+                <div class="taikhoan">
+                    <label for="">Tài Khoản</label><br>
+                    <input type="text" placeholder="Email hoặc Số điện thoại" required>
+                </div>
+                <div class="mk">
+                    <label for="">Mật Khẩu</label><br>
+                    <input type="text" placeholder="Nhập vào mật khẩu" required><br>
+                    <label for=""> Nhập Lại Mật Khẩu</label><br>
+                    <input type="text" placeholder="Nhập lại mật khẩu" required>
+                </div>
+                <div class="gioitinh">
+                    <form action="">
+                        <label for="">Giới tính</label><br>
+                        <input list="subject">
+                        <datalist id="subject">
+                            <option>Nữ</option>
+                            <option>Nam</option>
+                        </datalist>
+                    </form>
+                </div>
+                <div class="sdt">
+                    <label for="">Số điện thoại</label><br>
+                    <input type="text" placeholder="Nhập vào số điện thoại" required>
+                </div>
+                <div class="email">
+                    <label for="">Email</label><br>
+                    <input type="text" placeholder="Nhập vào email" required>
+                </div>
+                <div class="xacnhan">
+                    <label for="">Nhập mã xác nhận</label><br>
+                    <input type="text" placeholder="Nhập vào mã" required>
+                </div>
+                <div class="dkh">
+                    <p><input type="checkbox" required>Tôi đồng ý với điều khoản</p>
+                </div>
+                <div class="buttun">
+                    <button> Đăng kí</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

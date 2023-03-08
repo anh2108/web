@@ -1,0 +1,75 @@
+.container{
+    background: rgb(217, 240, 240);
+}
+
+.P1>.img>img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.P1>.img{
+    text-align: center;
+}
+
+.P1>.content{
+    font-size: xx-small;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttun{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.buttun>button{
+
+    border: 1px solid bisque;
+     background: whitesmoke;   
+
+}
+
+.buttun>button:hover{
+ color: red;
+}
+
+.buttun>button>a{
+    text-decoration: none;
+}
+
+.buttun>button>a:hover{
+    color: red;
+}
+
+.footer{
+    display: flex;
+    margin-top: 0px;
+    background: burlywood;
+   justify-content: space-between;
+  }
+  
+  .footer>.f1>.diachi>p{
+    font-size: xx-small;
+  }
+  
+  .footer{
+    font-size: xx-small;
+  }
+  
+  .footer>.f1:hover{
+    color: blue;
+  }
+  
+  .footer>.f2:hover{
+    color: blue;
+  }
+  
+  .f3>.but>button{
+    font-size: xx-small;
+    border: 1px solid bisque;
+    background: burlywood;
+  }

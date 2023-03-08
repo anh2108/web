@@ -1,0 +1,305 @@
+.P1 {
+    background: black;
+  }
+  
+  .P1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .P1 {
+    border: 1px solid black;
+    padding: 0px;
+  }
+  
+  .P1 {
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-left: 20px;
+    height: 50px;
+  
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .Timkiem {
+    width: 100%;
+  }
+  
+  
+  .Timkiem>input {
+    border: 0px;
+    outline: 0px;
+    margin-left: 10px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+  
+  .Timkiem>button {
+    border: 0px;
+    position: absolute;
+    right: 0px;
+    top: 1.5px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+  
+  
+  .giohang>button {
+    border-radius: 2em;
+  }
+  
+  .sms>button {
+    border-radius: 2em;
+  }
+  
+  .login>button {
+    border-radius: 2em;
+  }
+  
+  .content>.Timkiem {
+    border: 1px solid black;
+    width: 500px;
+    position: relative;
+  }
+  
+  .content>.Timkiem {
+    margin-right: 100px;
+  }
+  
+  .content>.Timkiem>input {
+    width: 465px;
+  }
+  
+  .content1 {
+    display: flex;
+  }
+  
+  .content1 {
+    margin-right: 50px;
+  }
+  
+  .content1>.giohang {
+    margin-right: 20px;
+  }
+  
+  .content1>.login {
+    margin-left: 20px;
+  
+  }
+  
+  .menu {
+    background: rgba(224, 191, 191, 0.918);
+  }
+  
+  .menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu>ul>li>a:hover {
+    color: orangered;
+  }
+  
+  .menu>ul>li {
+    list-style: none;
+    margin: 0 auto;
+    padding-right: 50px;
+  }
+  
+  .menu>ul {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .flex {
+    display: block;
+  }
+  
+  .banner>img {
+    width: 100%;
+    height: 350px;
+  }
+  
+  .content1 {
+  
+    margin: 0px;
+    justify-content: center;
+  
+  }
+  
+  .SP>.content1>img {
+    width: 100%;
+    height: 250px;  
+  }
+  
+  .SP>.row>.row1 {
+    border: 1px solid white;
+    text-align: center;
+  }
+
+  
+  .row>.row1>.img>img {
+    width: 100px;
+    height: 120px;
+    border: 1px solid aqua;
+  }
+  
+  .row>.row1>.tensp>h3 {
+    font-size: x-small;
+  }
+  
+  .row>.row1>.gia>p {
+    font-size: x-small;
+  }
+  
+  .row>.row1>.button>button {
+    font-size: x-small;
+    background: rgb(217, 240, 240);
+    border: 1px solid plum;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container {
+    background-color: rgb(217, 240, 240);
+  }
+  
+  
+  .row2>.row1>.img>img {
+    width: 100px;
+    height: 120px;
+    border: 1px solid aqua;
+  }
+  
+  .row2>.row1>.tensp>h3 {
+    font-size: x-small;
+  }
+  
+  .row2>.row1>.gia>p {
+    font-size: x-small;
+  }
+  
+  .row2>.row1>.button>button {
+    font-size: x-small;
+    background: rgb(217, 240, 240);
+    border: 1px solid plum;
+  }
+  
+  .row2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .row2>.row1 {
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  .SP>.icon>img{
+    width: 100%;
+    height: 175px;
+  }
+  
+  .SP>.jordan>img{
+    width:  100%;
+    height: 175px;
+  }
+  
+  .row>.row3>.img>img{
+    width: 100px;
+    height: 120px;
+    border: 1px solid aqua;
+  }
+  
+  .row>.row3>.ten>h3{
+    font-size: x-small;
+  }
+  
+  .row>.row3>.gia>p{
+    font-size: x-small;
+  }
+  
+  .row>.row3>.buttun>button{
+    font-size: x-small;
+    background: rgb(217, 240, 240);
+    border: 1px solid plum;
+  }
+  
+  .row>.row3{
+    text-align: center;
+    border: 1px solid white;
+  }
+  
+  .row2>.row4>.img>img{
+    width: 100px;
+    height: 120px;
+    border: 1px solid aqua;
+  }
+  
+  .row4>.ten>h3{
+    font-size: x-small;
+  }
+  
+  .row4>.gia>p{
+    font-size: x-small;
+  }
+  
+  .row4>.buttun>button{
+    font-size: x-small;
+    background: rgb(217, 240, 240);
+    border: 1px solid plum;
+  }
+  
+  .row2>.row4{
+    text-align: center;
+    border: 1px solid white;
+  }
+  
+  .new_sp>.new_content>img{
+   width: 100%;
+   height: 250px;
+  }
+  
+  .footer{
+    display: flex;
+    margin-top: 5px;
+    background: burlywood;
+   justify-content: space-between;
+  }
+  
+  .footer>.f1>.diachi>p{
+    font-size: xx-small;
+  }
+  
+  .footer{
+    font-size: xx-small;
+  }
+  
+  .footer>.f1:hover{
+    color: blue;
+  }
+  
+  .footer>.f2:hover{
+    color: blue;
+  }
+  
+  .f3>.but>button{
+    font-size: xx-small;
+    border: 1px solid bisque;
+    background: burlywood;
+  }
+  
+  
+  
+  
+  
